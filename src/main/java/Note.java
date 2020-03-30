@@ -2,7 +2,7 @@ import java.io.Serializable;
 import com.google.common.base.Preconditions;
 
 public class Note implements Serializable {
-	
+
 	private final String name;
 	private final float note;
 	
@@ -15,6 +15,8 @@ public class Note implements Serializable {
 	public float getNote() {
 		return note;
 	}
+
+	
 	private Note(String name, final float note) {
 		Preconditions.checkArgument(name != null, "Imię ucznia nie może być null");
 		name = name.trim();
@@ -24,4 +26,5 @@ public class Note implements Serializable {
 		this.name = name;
 		this.note = note;
 	}
+	
 }
