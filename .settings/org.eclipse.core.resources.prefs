@@ -1,5 +1,6 @@
 eclipse.preferences.version=1
 encoding//src/main/java/Note.java=UTF-8
 encoding//src/main/java/NotesService.java=UTF-8
+encoding//src/main/java/NotesServiceImpl.java=UTF-8
 encoding//src/test/java/MockTest.java=UTF-8
 encoding//src/test/java/NoteTest.java=UTF-8
