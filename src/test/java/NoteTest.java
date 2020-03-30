@@ -62,7 +62,7 @@ public class NoteTest {
     	assertEquals(name,note.getName());
     }
     
-
+    
     
 }
 
