@@ -62,7 +62,15 @@ public class NoteTest {
     	assertEquals(name,note.getName());
     }
     
-    
+    @ParameterizedTest(name = "Powinno być true gdy funkcja zwróci {1}")
+    @CsvSource({ 
+    	"'Antek', 3.0f", 
+    	"'Jarek', 4.5f",
+    	"'Zbyszek', 6.0f" })
+    void getNoteTest(String name, float grade) {
+    	note = Note.of(name, grade);
+    	assertEquals(grade,note.getNote());
+    }
     
 }
 
