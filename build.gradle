@@ -20,7 +20,8 @@ dependencies {
     		'org.assertj:assertj-core:3.15.0',
     		'org.apache.commons:commons-lang3:3.9',
     		'org.junit.jupiter:junit-jupiter-params:5.6.0',
-			'com.google.guava:guava:r05'
+			'com.google.guava:guava:jar:23.0'
+
 
     )
     testRuntime(
