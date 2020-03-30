@@ -19,10 +19,9 @@ dependencies {
             'org.hamcrest:hamcrest:2.1',
     		'org.assertj:assertj-core:3.15.0',
     		'org.apache.commons:commons-lang3:3.9',
-    		'org.junit.jupiter:junit-jupiter-params:5.6.0'
+    		'org.junit.jupiter:junit-jupiter-params:5.6.0',
 			'com.google.guava:guava:r05'
 
-					
     )
     testRuntime(
             'org.junit.jupiter:junit-jupiter-engine:5.4.0',
