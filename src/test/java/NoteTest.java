@@ -24,6 +24,7 @@ public class NoteTest {
     @ParameterizedTest(name = "Test {index} : uczeń {0} z ocena {1} ma zwracać {2}")
     @CsvSource({ 
     	"'jeden',1.0f,'Niewłaściwa ocena'", 
+    	"'siedem',7.0f,'Niewłaściwa ocena'", 
     	",1.0f,'Imię ucznia nie może być null'",
     	"'',1.0f,'Imię ucznia nie może być puste'" })
     void ExceptionsTest(String name, float grade, String expected) {
